@@ -10,20 +10,16 @@ public class Customer {
 	public int getOrderId() {
 		return Orderid;
 	}
-	public void setId(int id) {
-		this.id = id;
+	public void setOrderId(int Orderid) {
+		this.Orderid = id;
 	}
-	public String getName() {
+	public String getCustomerName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getRole() {
-		return role;
+	public int getOrderdate() {
+		return Date;
 	}
-	public void setRole(String role) {
-		this.role = role;
-	}
-
 }
